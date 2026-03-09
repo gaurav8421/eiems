@@ -15,7 +15,7 @@ python -m http.server 8000
 ✅ **Home** - index.html
 ✅ **About Us** - about.html
 ✅ **Services** - services.html
-✅ **Case Studies** - case-studies.html
+<!-- ✅ **Case Studies** - case-studies.html -->
 ✅ **Quality** - quality.html
 ✅ **Contact** - contact.html
 
@@ -99,7 +99,7 @@ Edit the footer section in each HTML file:
 | Home | index.html | Landing page with overview |
 | About | about.html | Company info, R&D centres |
 | Services | services.html | All 8 services detailed |
-| Case Studies | case-studies.html | 4 project showcases |
+<!-- | Case Studies | case-studies.html | 4 project showcases | -->
 | Quality | quality.html | Certifications & processes |
 | Contact | contact.html | Quote form & contact info |
 

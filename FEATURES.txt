@@ -127,7 +127,7 @@ CASE STUDIES (case-studies.html):
 QUALITY (quality.html):
   • IPC-A-610 Class 2 & 3
   • ESD S20.20 control program
-  • APQP/PPAP automotive quality
+  • IATF 16949 automotive quality
   • ISO 9001:2015
   • Traceability systems (3 types)
   • 4-stage quality process
