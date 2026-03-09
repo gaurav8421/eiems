@@ -1,13 +1,13 @@
-# Ei EMS India Pvt. Ltd. - Official Website
+# Ei EMS - Official Website
 
 > Professional, modern, multi-page corporate website for Electronics Manufacturing Services
 
 ## 🌐 Project Overview
 
-A fully responsive, colorful, and high-tech website for **Ei EMS India Pvt. Ltd.**, a leading electronics manufacturing services (EMS) company. The design is inspired by top EMS companies like Kaynes Technology, Syrma SGS, and Dixon Technologies.
+A fully responsive, colorful, and high-tech website for **Ei EMS**, a leading electronics manufacturing services (EMS) company. The design is inspired by top EMS companies like Kaynes Technology, Syrma SGS, and Dixon Technologies.
 
 ### Company Information
-- **Company Name:** Ei EMS India Pvt. Ltd.
+- **Company Name:** Ei EMS
 - **Industry:** Electronics Manufacturing Services (EMS)
 - **Services:** PCB Assembly, SMT, Micro-BGA, Conformal Coating, Prototyping, Turnkey Engineering, R&D, Embedded Systems, Global Supply Chain
 - **R&D Centres:** Bangalore & Noida
@@ -101,7 +101,7 @@ Each includes: Challenge, Solution, Technologies, Results
 
 ### 5. **Quality & Certifications (quality.html)**
 - Quality philosophy and commitment
-- Certifications: IPC-A-610, ESD S20.20, APQP/PPAP, ISO 9001:2015
+- Certifications: IPC-A-610, ESD S20.20, IATF 16949, ISO 9001:2015
 - Traceability systems (Material, Process, Product)
 - Quality control process flow (4-stage inspection)
 - Testing capabilities (6 categories)
@@ -297,7 +297,7 @@ The website showcases:
 
 ## 📄 License
 
-© 2025 Ei EMS India Pvt. Ltd. All rights reserved.
+© 2025 Ei EMS All rights reserved.
 
 ---
 
@@ -322,6 +322,6 @@ For questions or support:
 
 ---
 
-**Built with ❤️ for Ei EMS India Pvt. Ltd.**
+**Built with ❤️ for Ei EMS**
 
 *Last Updated: 2025-11-17*

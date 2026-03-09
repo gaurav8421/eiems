@@ -1,5 +1,5 @@
 /**
- * Ei EMS India Pvt. Ltd. - Main JavaScript
+ * Ei EMS - Main JavaScript
  * Mobile menu, smooth scrolling, form validation, and interactions
  */
 
@@ -275,7 +275,7 @@ function showFormSuccessMessage() {
     successDiv.innerHTML = `
         <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">✓</div>
         <div style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">Message Sent Successfully!</div>
-        <div style="font-size: 1rem; opacity: 0.95;">Thank you for contacting Ei EMS India. Our team will get back to you within 24 hours.</div>
+        <div style="font-size: 1rem; opacity: 0.95;">Thank you for contacting Ei EMS. Our team will get back to you within 24 hours.</div>
     `;
 
     // Insert at the top of the form container
@@ -751,6 +751,6 @@ function showEngagementPopup() {
 
 
 // Console message
-console.log('%c⚡ Ei EMS India Pvt. Ltd. ⚡', 'color: #0066cc; font-size: 20px; font-weight: bold;');
+console.log('%c⚡ Ei EMS ⚡', 'color: #0066cc; font-size: 20px; font-weight: bold;');
 console.log('%cWorld-Class Electronics Manufacturing Services', 'color: #666; font-size: 14px;');
 console.log('%cWebsite: https://eiems.in | Email: sales@eiems.in', 'color: #999; font-size: 12px;');
