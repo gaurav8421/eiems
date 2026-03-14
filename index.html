@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Meta Tags -->
@@ -85,8 +85,18 @@
 
         <div class="container" style="position: relative; z-index: 2;">
             <div class="hero-content">
-                <h1>World-Class Electronics Manufacturing Services</h1>
-                <p>End-to-end electronics design, engineering, and manufacturing solutions. From PCB assembly to turnkey product development.</p>
+                <h1 id="heroHeading" style="opacity: 0; transform: translateY(20px); transition: opacity 0.8s ease, transform 0.8s ease;">World-Class Electronics Manufacturing Services</h1>
+                <p style="font-size: 1.2rem;">End-to-end electronics design, engineering, and manufacturing solutions. From PCB assembly to turnkey product development.</p>
+                <script>
+                (function() {
+                    var el = document.getElementById('heroHeading');
+                    if (!el) return;
+                    setTimeout(function() {
+                        el.style.opacity = '1';
+                        el.style.transform = 'translateY(0)';
+                    }, 100);
+                })();
+                </script>
                 <div class="hero-buttons">
                     <a href="contact.html" class="btn btn-white btn-large">Get a Quote</a>
                     <a href="services.html" class="btn btn-outline btn-large" style="border-color: var(--white); color: var(--white);">Our Services</a>
@@ -111,21 +121,21 @@
             <div class="grid grid-3">
                 <!-- Global Presence -->
                 <div class="card scroll-reveal">
-                    <img src="assets/images/image1.jpeg" alt="Global Manufacturing Presence" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--radius-md); margin-bottom: var(--spacing-sm);">
+                    <img src="assets/images/image1.jpeg" alt="Global Manufacturing Presence" loading="lazy" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--radius-md); margin-bottom: var(--spacing-sm);">
                     <h3 class="card-title">Global Presence</h3>
                     <p class="card-text">Headquartered in Florida, USA, with manufacturing locations across North America, China, and India. Sales, sourcing, and operations offices span US, Asia, and Europe, providing comprehensive global support.</p>
                 </div>
 
                 <!-- R&D Excellence -->
                 <div class="card scroll-reveal">
-                    <img src="assets/images/image2.jpeg" alt="R&D Excellence" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--radius-md); margin-bottom: var(--spacing-sm);">
+                    <img src="assets/images/image2.jpeg" alt="R&D Excellence" loading="lazy" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--radius-md); margin-bottom: var(--spacing-sm);">
                     <h3 class="card-title">R&D Excellence</h3>
                     <p class="card-text">Dedicated team of firmware, hardware, mechanical, and industrial designers in North America, China, and India, seamlessly catering to all customer design needs.</p>
                 </div>
 
                 <!-- End-to-End Solutions -->
                 <div class="card scroll-reveal">
-                    <img src="assets/images/image3.jpeg" alt="End-to-End Solutions" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--radius-md); margin-bottom: var(--spacing-sm);">
+                    <img src="assets/images/image3.jpeg" alt="End-to-End Solutions" loading="lazy" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--radius-md); margin-bottom: var(--spacing-sm);">
                     <h3 class="card-title">End-to-End Solutions</h3>
                     <p class="card-text">As a group company, we are vertically integrated in the electronics manufacturing process, from PCB manufacturing and EMS to tool design and injection molding.</p>
                 </div>
@@ -416,7 +426,6 @@
             </div>
 
             <div class="grid grid-2" style="gap: var(--spacing-lg);">
-                Telematics Case Study
                 <div class="card scroll-reveal">
                     <div style="display: inline-block; background: var(--gradient-primary); color: var(--white); padding: 0.5rem 1rem; border-radius: var(--radius-sm); margin-bottom: var(--spacing-sm); font-size: 0.875rem; font-weight: 600;">
                         Automotive
@@ -437,7 +446,6 @@
                     </div>
                 </div>
 
-                Medical Device Case Study
                 <div class="card scroll-reveal">
                     <div style="display: inline-block; background: linear-gradient(135deg, #00cc66 0%, #00ffcc 100%); color: var(--white); padding: 0.5rem 1rem; border-radius: var(--radius-sm); margin-bottom: var(--spacing-sm); font-size: 0.875rem; font-weight: 600;">
                         Medical Devices
@@ -458,8 +466,7 @@
                     </div>
                 </div>
 
-                Automotive ECU Case Study
-                 <div class="card scroll-reveal">
+                <div class="card scroll-reveal">
                     <div style="display: inline-block; background: var(--gradient-accent); color: var(--white); padding: 0.5rem 1rem; border-radius: var(--radius-sm); margin-bottom: var(--spacing-sm); font-size: 0.875rem; font-weight: 600;">
                         Automotive
                     </div>
@@ -477,10 +484,9 @@
                             <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 0;">Units/Month</p>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
-                <!-- Industrial IoT Case Study -->
-                <!-- <div class="card scroll-reveal">
+                <div class="card scroll-reveal">
                     <div style="display: inline-block; background: linear-gradient(135deg, #9933ff 0%, #cc66ff 100%); color: var(--white); padding: 0.5rem 1rem; border-radius: var(--radius-sm); margin-bottom: var(--spacing-sm); font-size: 0.875rem; font-weight: 600;">
                         Industrial IoT
                     </div>
@@ -499,13 +505,13 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
-            <!-- <div class="text-center mt-lg">
+            <div class="text-center mt-lg">
                 <a href="case-studies.html" class="btn btn-outline">View All Case Studies</a>
             </div>
         </div>
-    </section>   -->
+    </section> -->
 
 
 
@@ -525,7 +531,7 @@
 
             <div class="grid grid-3" style="gap: var(--spacing-md);">
                 <div class="card scroll-reveal" style="padding: 0; overflow: hidden;">
-                    <img src="assets/images/image12.png" alt="Manufacturing Facility" style="width: 100%; height: 250px; object-fit: cover;">
+                    <img src="assets/images/image12.png" alt="Manufacturing Facility" loading="lazy" style="width: 100%; height: 250px; object-fit: cover;">
                     <div style="padding: var(--spacing-md);">
                         <h4 style="margin-bottom: 0.5rem;">Surface Mount Technology</h4>
                         <p style="color: var(--text-secondary); font-size: 0.95rem;">Advanced high speed SMT lines</p>
@@ -533,7 +539,7 @@
                 </div>
 
                 <div class="card scroll-reveal" style="padding: 0; overflow: hidden;">
-                    <img src="assets/images/image13.png" alt="Quality Control" style="width: 100%; height: 250px; object-fit: cover;">
+                    <img src="assets/images/image13.png" alt="Quality Control" loading="lazy" style="width: 100%; height: 250px; object-fit: cover;">
                     <div style="padding: var(--spacing-md);">
                         <h4 style="margin-bottom: 0.5rem;">Through Hole</h4>
                         <p style="color: var(--text-secondary); font-size: 0.95rem;">High speed through hole insertion lines, Robotic soldering, Selective soldering, automated conformal coating</p>
@@ -541,7 +547,7 @@
                 </div>
 
                 <div class="card scroll-reveal" style="padding: 0; overflow: hidden;">
-                    <img src="assets/images/image14.png" alt="Testing Lab" style="width: 100%; height: 250px; object-fit: cover;">
+                    <img src="assets/images/image14.png" alt="Testing Lab" loading="lazy" style="width: 100%; height: 250px; object-fit: cover;">
                     <div style="padding: var(--spacing-md);">
                         <h4 style="margin-bottom: 0.5rem;">Quality and Inspection</h4>
                         <p style="color: var(--text-secondary); font-size: 0.95rem;">SPI, AOI, ICT, X-Ray, FCT</p>
@@ -549,7 +555,7 @@
                 </div>
 
                 <div class="card scroll-reveal" style="padding: 0; overflow: hidden;">
-                    <img src="assets/images/image15.png" alt="Assembly Line" style="width: 100%; height: 250px; object-fit: cover;">
+                    <img src="assets/images/image15.png" alt="Assembly Line" loading="lazy" style="width: 100%; height: 250px; object-fit: cover;">
                     <div style="padding: var(--spacing-md);">
                         <h4 style="margin-bottom: 0.5rem;">Testing</h4>
                         <p style="color: var(--text-secondary); font-size: 0.95rem;">Surge, Environmental, Aging, High pot, vibration, humidity</p>
@@ -557,7 +563,7 @@
                 </div>
 
                 <div class="card scroll-reveal" style="padding: 0; overflow: hidden;">
-                    <img src="assets/images/image16.png" alt="Production Floor" style="width: 100%; height: 250px; object-fit: cover;">
+                    <img src="assets/images/image16.png" alt="Production Floor" loading="lazy" style="width: 100%; height: 250px; object-fit: cover;">
                     <div style="padding: var(--spacing-md);">
                         <h4 style="margin-bottom: 0.5rem;">Production Floor</h4>
                         <p style="color: var(--text-secondary); font-size: 0.95rem;">Temperature and humidity control, 100k clean room facility</p>
@@ -565,7 +571,7 @@
                 </div>
 
                 <div class="card scroll-reveal" style="padding: 0; overflow: hidden;">
-                    <img src="assets/images/image17.png" alt="R&D Center" style="width: 100%; height: 250px; object-fit: cover;">
+                    <img src="assets/images/image17.png" alt="R&D Center" loading="lazy" style="width: 100%; height: 250px; object-fit: cover;">
                     <div style="padding: var(--spacing-md);">
                         <h4 style="margin-bottom: 0.5rem;">Design Center</h4>
                         <p style="color: var(--text-secondary); font-size: 0.95rem;">New product design, product enhancement, technology migration, PCB design and optimization</p>
@@ -582,7 +588,7 @@
     <section class="section-light">
         <div class="container">
             <div class="text-center mb-lg">
-                <h2>Qur <span class="text-gradient">Quality Overview</span></h2>
+                <h2>Our <span class="text-gradient">Quality Overview</span></h2>
                 <p style="font-size: 1.125rem; color: var(--text-secondary);">
                     Certified to the highest international standards
                 </p>
@@ -613,23 +619,58 @@
 
             <!-- Quality Metrics -->
             <div class="grid grid-4" style="margin-top: var(--spacing-lg);">
-                <div class="text-center" style="padding: var(--spacing-md);">
-                    <div style="font-size: 2.5rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 0.5rem;">99.8%</div>
+                <div class="text-center stat-counter-box" style="padding: var(--spacing-md);">
+                    <div class="stat-counter" data-target="99.8" data-suffix="%" style="font-size: 2.5rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 0.5rem;">0%</div>
                     <p style="color: var(--text-secondary); font-weight: 600;">First Pass Yield</p>
                 </div>
-                <div class="text-center" style="padding: var(--spacing-md);">
-                    <div style="font-size: 2.5rem; font-weight: 700; color: var(--accent-green); margin-bottom: 0.5rem;">&lt;50</div>
+                <div class="text-center stat-counter-box" style="padding: var(--spacing-md);">
+                    <div class="stat-counter" data-target="50" data-prefix="&lt;" style="font-size: 2.5rem; font-weight: 700; color: var(--accent-green); margin-bottom: 0.5rem;">0</div>
                     <p style="color: var(--text-secondary); font-weight: 600;">PPM Defect Rate</p>
                 </div>
-                <div class="text-center" style="padding: var(--spacing-md);">
-                    <div style="font-size: 2.5rem; font-weight: 700; color: var(--accent-orange); margin-bottom: 0.5rem;">98%+</div>
+                <div class="text-center stat-counter-box" style="padding: var(--spacing-md);">
+                    <div class="stat-counter" data-target="98" data-suffix="%+" style="font-size: 2.5rem; font-weight: 700; color: var(--accent-orange); margin-bottom: 0.5rem;">0%</div>
                     <p style="color: var(--text-secondary); font-weight: 600;">On-Time Delivery</p>
                 </div>
-                <div class="text-center" style="padding: var(--spacing-md);">
-                    <div style="font-size: 2.5rem; font-weight: 700; color: var(--accent-purple); margin-bottom: 0.5rem;">100%</div>
+                <div class="text-center stat-counter-box" style="padding: var(--spacing-md);">
+                    <div class="stat-counter" data-target="100" data-suffix="%" style="font-size: 2.5rem; font-weight: 700; color: var(--accent-purple); margin-bottom: 0.5rem;">0%</div>
                     <p style="color: var(--text-secondary); font-weight: 600;">Traceability</p>
                 </div>
             </div>
+
+            <script>
+            (function() {
+                var animated = false;
+                function animateCounters() {
+                    if (animated) return;
+                    var boxes = document.querySelectorAll('.stat-counter-box');
+                    var section = boxes[0] && boxes[0].closest('section');
+                    if (!section) return;
+                    var rect = section.getBoundingClientRect();
+                    if (rect.top < window.innerHeight - 100) {
+                        animated = true;
+                        document.querySelectorAll('.stat-counter').forEach(function(el) {
+                            var target = parseFloat(el.dataset.target);
+                            var prefix = el.dataset.prefix || '';
+                            var suffix = el.dataset.suffix || '';
+                            var isDecimal = target % 1 !== 0;
+                            var duration = 1800;
+                            var start = performance.now();
+                            function update(now) {
+                                var elapsed = now - start;
+                                var progress = Math.min(elapsed / duration, 1);
+                                var ease = 1 - Math.pow(1 - progress, 3);
+                                var value = target * ease;
+                                el.textContent = prefix + (isDecimal ? value.toFixed(1) : Math.floor(value)) + suffix;
+                                if (progress < 1) requestAnimationFrame(update);
+                            }
+                            requestAnimationFrame(update);
+                        });
+                    }
+                }
+                window.addEventListener('scroll', animateCounters, { passive: true });
+                animateCounters();
+            })();
+            </script>
 
             <div class="text-center mt-lg">
                 <a href="quality.html" class="btn btn-outline">Learn More About Quality</a>
@@ -685,9 +726,32 @@
 
                         <div style="font-size: 4rem; margin-bottom: var(--spacing-md);">📅</div>
                         <h3 style="color: var(--text-primary); margin-bottom: var(--spacing-sm);">Book Your Free Consultation</h3>
+
+                        <!-- 30-second response badge -->
+                        <div style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; background: linear-gradient(135deg, #e8f5e9, #f1f8e9); border: 1.5px solid #66bb6a; border-radius: 50px; padding: 0.4rem 1rem; margin-bottom: var(--spacing-md); width: fit-content; margin-left: auto; margin-right: auto;">
+                            <span id="responseTimer" style="font-size: 1.5rem; font-weight: 800; color: #2e7d32; font-variant-numeric: tabular-nums; min-width: 2ch;">30</span>
+                            <div>
+                                <div style="font-size: 0.7rem; font-weight: 700; color: #2e7d32; line-height: 1;">sec response</div>
+                                <div style="font-size: 0.65rem; color: #388e3c; line-height: 1;">⚡ Team is online</div>
+                            </div>
+                        </div>
+
                         <p style="color: var(--text-secondary); margin-bottom: var(--spacing-lg);">
                             Choose a convenient time slot and our team will connect with you
                         </p>
+
+                        <script>
+                        (function() {
+                            var count = 30;
+                            var el = document.getElementById('responseTimer');
+                            if (!el) return;
+                            var interval = setInterval(function() {
+                                count--;
+                                if (count <= 0) count = 30;
+                                el.textContent = count;
+                            }, 1000);
+                        })();
+                        </script>
 
                         <a href="https://calendly.com/gaurav-maarula24/30min" target="_blank" class="btn btn-primary btn-large" style="width: 100%; margin-bottom: var(--spacing-md); display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
                             <span>Schedule Now</span>
@@ -709,7 +773,7 @@
          ======================================== -->
     <section style="background: linear-gradient(135deg, var(--primary-blue) 0%, var(--accent-cyan) 100%);">
         <div class="container text-center">
-            <h2 style="color: var(--white); margin-bottom: var(--spacing-md);">Ready to Get Started?</h2>
+            <h2 style="color: var(--white); margin-bottom: var(--spacing-md);">Ready to Build Your Product?</h2>
             <p style="font-size: 1.25rem; margin-bottom: var(--spacing-lg); opacity: 0.9; color: var(--white);">
                 Contact us today to discuss your electronics manufacturing needs
             </p>
@@ -768,16 +832,16 @@
                         <li>🇨🇳 China</li>
                         <li>🇭🇰 Hong Kong</li>
                         <li>🇺🇸 USA</li>
-                        <li>MX Mexico</li>
-                        <li>CR Costa Rica</li>
-                        <li>DE Germany</li>
-                        <li>PH Philippines</li>
+                        <li>🇲🇽 Mexico</li>
+                        <li>🇨🇷 Costa Rica</li>
+                        <li>🇩🇪 Germany</li>
+                        <li>🇵🇭 Philippines</li>
                     </ul>
                 </div>
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2025 Ei EMS All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                <p>&copy; 2025–2026 Ei EMS All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
             </div>
         </div>
     </footer>
